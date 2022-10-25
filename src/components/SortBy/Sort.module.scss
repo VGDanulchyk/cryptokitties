@@ -1,0 +1,83 @@
+.sortWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  @media (max-width: 959px) {
+    margin: 10px auto;
+  }
+
+  .sortButtonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fe5f1e;
+    border-radius: 7px;
+    box-shadow: 0 0 14px -7px #f09819;
+    background-color: #ffdf8c;
+    padding: 15px 20px;
+    @media (max-width: 639px) {
+      display: flex;
+      flex-direction: column;
+    }
+    .titleWrap {
+      .title {
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+    }
+    .sortButtonsWrap {
+      display: flex;
+      @media (max-width: 395px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .buttonWrap {
+        .sortButton {
+          margin: 10px;
+          padding: 10px 20px;
+          text-align: center;
+          text-transform: uppercase;
+          transition: 0.5s;
+          background-size: 200% auto;
+          color: white;
+          border-radius: 10px;
+          display: block;
+          border: 0;
+          font-weight: 700;
+          box-shadow: 0 0 14px -7px #f09819;
+          background-image: linear-gradient(
+            45deg,
+            #ff512f 0%,
+            #f09819 51%,
+            #ff512f 100%
+          );
+          cursor: pointer;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+        }
+
+        .sortButton:hover {
+          background-position: right center;
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .sortButton:active {
+          transform: scale(0.95);
+        }
+
+        .sortButtonActive {
+          background-image: linear-gradient(
+            15deg,
+            #a2e866 0%,
+            #3eb630 51%,
+            #19a907 100%
+          );
+        }
+      }
+    }
+  }
+}
