@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cryptokitties/static/css/main.f65fff77.css",
+    "main.js": "/cryptokitties/static/js/main.84bdbcb8.js",
+    "index.html": "/cryptokitties/index.html",
+    "main.f65fff77.css.map": "/cryptokitties/static/css/main.f65fff77.css.map",
+    "main.84bdbcb8.js.map": "/cryptokitties/static/js/main.84bdbcb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f65fff77.css",
+    "static/js/main.84bdbcb8.js"
+  ]
+}
